@@ -8,3 +8,7 @@ webview = true
 
 [deployment]
 run = ["sh", "-c", "cowsay Configure me!"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80
